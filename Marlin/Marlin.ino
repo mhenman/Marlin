@@ -51,3 +51,7 @@ Contributing
   - http://marlinfw.org/docs/development/coding_standards.html
     Before submitting code get to know the Coding Standards.
 */
+#define ST7920_DELAY_1 DELAY_0_NOP
+#define ST7920_DELAY_2 DELAY_2_NOP
+#define ST7920_DELAY_3 DELAY_0_NOP
+#define DOGM_SPI_DELAY_US 10
