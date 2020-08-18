@@ -31,7 +31,7 @@
  * - Type of electronics
  * - Type of temperature sensor
  * - Printer geometry
- * - Endstop configurationst
+ * - Endstop configuration
  * - LCD controller
  * - Extra features
  *
@@ -1912,6 +1912,9 @@
 // http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 //
 #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+#define ST7920_DELAY_1 DELAY_NS(20)
+#define ST7920_DELAY_2 DELAY_NS(20)
+#define ST7920_DELAY_3 DELAY_NS(20)
 
 //
 // ReprapWorld Graphical LCD
